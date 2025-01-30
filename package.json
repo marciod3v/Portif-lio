@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "@tailwindcss/cli": "^4.0.1",
+    "motion": "^12.0.6",
+    "one": "^1.1.417",
     "tailwindcss": "^4.0.1"
   }
 }

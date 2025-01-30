@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="assets/sass/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Meu Portifólio</title>
+</head>
+<body class="bg-[#16161a] text-white">
+    <div id="main_container" class="w-screen h-screen">
+        <header class= "w-full h-auto p-4 bg-[#0101018e] text-white   flex flex-col justify-center items-center">
+            <h1 class="text-6xl font-light font-Poppins mb-4">Meu Portifólio</h1>
+            <nav class="w-full p-4 my-6 flex justify-around font-medium bg-[#16161a] rounded-2xl">
+                <a href="#">Sobre Mim</a>
+                <a href="#">Conhecimentos</a>    
+                <a href="#">Projetos</a>
+            </nav>
+            <button class="p-4 m-5 rounded-2xl font-bold bg-[#7f5af0]">Entrar em contato</button>
+        </header>
+        <main class="h-auto w-screen p-4 flex flex-col  items-center" class="escondido">
+            <article class="p-6 bg-[#0101018e] rounded-2xl">
+                <h2 class="text-5xl font-bold">Olá, eu sou Marcio</h2>
+                <p class="mt-4 text-xl">No momento estou em busca do meu primeiro emprego como desenvolvedor <span class="font-bold text-[#7f5af0]">Frontend</span>.</p>
+            </article>
+            <article id="buttons" class="w-full p-4 flex justify-around">
+                <button class="p-4 m-5 rounded-2xl font-bold bg-[#7f5af0]">Meus projetos</button>
+                <button class="p-4 m-5 rounded-2xl font-bold bg-[#7f5af0]">Sobre mim</button>
+            </article>
+            <article class="w-full p-4">
+                <img src="assets/imgs/profile_final.png" alt="profile_photo">
+                <p class="mt-12  p-6 text-lg text-center bg-[#0101018e] rounded-2xl">Minha paixão pela programação começou no ensino médio, quando estudei na <span class="font-bold text-[#7f5af0]">ETEC Pedro Leme Brisolla Sobrinho</span> 
+                    foi lá que programei meu primeiro <span class="font-bold text-[#7f5af0]">"Hello World"</span>, por um tempo me afastei porém logo voltei aos estudos na área
+                    do qual quer seguir profissionalmente.
+                </p>
+            </article>
+            <article class= "mt-12 bg-[#0101018e] rounded-2xl">
+                <h2 class=" text-center font-bold p-6 text-6xl rounded-t-2xl bg-[#7f5af0]">Meus Projetos</h2>
+                <p class="p-6 text-lg">Apesar de decidir seguir na área Frontend, fiz alguns projetos Backend, como sistema de votação da feira técnológica
+                    porém decidi focar no Front, e carregar no meu repositório no GitHub.
+                </p>
+            </article>
+        </main>
+        <footer class="w-screen mt-12 p-6 h-auto bg-[#7f5af0]" class="escondido">
+            <nav class="flex flex-row justify-around ">
+                <img class="w-12" src="assets/imgs/logos/github-logo.png" alt="GitHub logo">
+                <img class="w-12" src="assets/imgs/logos/linkedin-logo.png" alt="Linkedin logo">
+                <img class="w-12" src="assets/imgs/logos/facebook-logo.png" alt="Facebook logo">
+            </nav>
+            <p class=" w-full text-center  p-4 mt-6 font-bold">Developed by MarcioD3v</p>
+          
+        </footer>
+    </div>
+</body>
+<script type="module" src="javascript/script.js"></script>
+</html>
